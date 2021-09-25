@@ -1,0 +1,20 @@
+.loading-container {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  mat-spinner {
+    margin-bottom: 30px;
+  }
+
+  span {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+  }
+}
